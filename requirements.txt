@@ -1,0 +1,9 @@
+streamlit==1.36.0 # Or your preferred version, but 1.36 is recent stable
+google-generativeai
+langchain
+langchain-google-genai
+faiss-cpu # Use faiss-gpu if you have a compatible GPU and setup, otherwise faiss-cpu is standard
+PyPDF2 # For PDF document processing
+python-docx # For Word document (.docx) processing
+pandas # For data manipulation, often used with document processing
+python-pptx # For PowerPoint (.pptx) document processing
