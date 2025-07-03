@@ -1,7 +1,19 @@
 # RAGENT CHATBOT
 ## Agentic-RAG-Chatbot
 
-An agent-based Retrieval-Augmented Generation (RAG) chatbot using Streamlit, FAISS, and Google Gemini API for answering questions from uploaded documents.
+## 💡 About
+
+**Agentic-RAG-Chatbot** is an advanced Retrieval-Augmented Generation (RAG) chatbot application designed to answer user queries based on the content of uploaded documents. Built with a modular, agent-based architecture, it separates responsibilities across three specialized agents:
+
+- **IngestionAgent** – Parses and preprocesses documents.
+- **RetrievalAgent** – Handles semantic search using FAISS and document embeddings.
+- **LLMResponseAgent** – Uses Google Gemini API to generate accurate, context-aware answers.
+
+These agents interact via a lightweight, in-memory messaging framework called **Model Context Protocol (MCP)**, which standardizes and streamlines communication between components. This design promotes high modularity, better scalability, and clean separation of responsibilities.
+
+The system supports diverse document formats including PDF, DOCX, CSV, PPTX, TXT, and Markdown, making it highly versatile for real-world use cases. Leveraging FAISS for efficient vector storage and Gemini for both embeddings and LLM responses, the chatbot delivers fast and relevant answers with source attribution.
+
+Designed for professionals, researchers, and developers, Agentic-RAG-Chatbot showcases best practices in RAG architecture with robust document intelligence capabilities.
 
 ## 🚀 Features
 
